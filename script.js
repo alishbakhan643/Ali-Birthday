@@ -43,7 +43,8 @@ const photos = [
 
     "images/Ali04.jpeg",
 
-    
+        "images/Ali05.jpeg",
+
 
 ];
 // =====================================
