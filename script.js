@@ -33,17 +33,17 @@ const finalSection = document.querySelector(".final-section");
 
 const photos = [
 
-    "images/Ali0.jpeg",
+    "/Ali0.jpeg",
 
-    "images/Ali01.jpeg",
+    "Ali01.jpeg",
 
-    "images/Ali02.jpeg",
+    "Ali02.jpeg",
 
-    "images/Ali03.jpeg",
+    "Ali03.jpeg",
 
-    "images/Ali04.jpeg",
+    "Ali04.jpeg",
 
-        "images/Ali05.jpeg",
+    "Ali05.jpeg",
 
 
 ];
