@@ -4,6 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Happy Birthday Ali ❤️</title>
@@ -12,7 +13,7 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 
@@ -20,8 +21,10 @@
 
 <body>
 
+<!-- ========================= -->
 <!-- Floating Hearts -->
-
+<!-- ========================= -->
+<div class="fairy-lights"></div>
 <div class="hearts">
 
     <span>❤️</span>
@@ -30,12 +33,12 @@
     <span>❤️</span>
     <span>❤️</span>
     <span>❤️</span>
-    <span>❤️</span>
-   
 
 </div>
 
+<!-- ========================= -->
 <!-- Stars -->
+<!-- ========================= -->
 
 <div class="stars">
 
@@ -47,30 +50,36 @@
     <span></span>
     <span></span>
     <span></span>
-    <span></span>
-    <span></span>
 
 </div>
 
-<!-- HERO -->
+<!-- ========================= -->
+<!-- Hero Section -->
+<!-- ========================= -->
 
 <section class="hero">
 
     <div class="glass">
 
-        <h1>
+        
 
-            Happy Birthday,<br>
-
-            Ali Nawaz ❤️
+            <h1>
+    Happy Birthday<br>
+    <span>Ali Nawaz</span>
+    <span class="heart">❤️</span>
+</h1>
 
         </h1>
 
         <p>
 
-            Every heartbeat of mine
-            carries a prayer
-            for your happiness.
+            Every heartbeat...
+            every prayer...
+            every memory...
+
+            <br><br>
+
+            Today is all about you.
 
         </p>
 
@@ -83,82 +92,208 @@
     </div>
 
 </section>
+
+<!-- ========================= -->
+<!-- Romantic Intro -->
+<!-- ========================= -->
+
 <section class="message hidden">
 
-    <div class="message-card">
+    <div class="glass">
 
-        <h2>💖 Every heartbeat led me to this moment...</h2>
+        <h2>
+
+            💖 Every Love Story Has A Beginning...
+
+        </h2>
 
         <p>
 
-            Every smile of yours has become
-            one of my favorite memories.
+            Some people become memories...
+
+            <br>
+
+            But you became my home.
 
             <br><br>
 
             This little surprise was made
-            with love, prayers,
-            and countless thoughts of you.
+            with all my love.
 
         </p>
 
     </div>
 
 </section>
+<!-- ========================= -->
 <!-- Premium Gallery -->
+<!-- ========================= -->
 
 <section class="gallery hidden">
 
-    <div class="photo-wrapper">
+    <div class="gallery-card glass">
 
-        <img id="photo" src="Ali0.jpeg" alt="Ali">
-       
+        <img id="photo" src="images/Ali0.jpeg" alt="Ali">
 
-        <div class="photo-overlay">
+        <h2 id="caption">
 
-            <h2 id="caption">
-                The smile that brightens my world. ❤️
-            </h2>
+            The smile that brightens my world. ❤️
 
-            <div class="dots">
+        </h2>
 
-                <span class="active"></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+        <!-- Progress Dots -->
 
-            </div>
+        <div class="dots">
+
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <!-- Gallery Buttons -->
+
+        <div class="gallery-buttons">
 
             <button id="nextBtn">
+
                 ❤️ Next Memory
+
             </button>
+
             <button id="readBtn" class="hidden">
+
                 💌 Read My Letter
-             </button>
+
+            </button>
 
         </div>
 
     </div>
 
 </section>
-<!-- LETTER SECTION -->
+
+<!-- ========================= -->
+<!-- Love Letter -->
+<!-- ========================= -->
+
 <section class="letter-section hidden">
 
-    <div class="letter-box">
+    <div class="envelope" id="envelope">
+        <div class="envelope-front"></div>
+        <div class="envelope-flap"></div>
+        <p>💌 Click to Open My Letter</p>
+    </div>
+
+    <div class="letter-card glass hidden">
 
         <h2>💌 A Letter For You</h2>
 
         <div id="letterText"></div>
 
         <button id="finishBtn">
-            ✨ Final Surprise
+            ❤️ One Last Surprise
         </button>
 
     </div>
 
 </section>
+<!-- ========================= -->
+<!-- Final Surprise -->
+<!-- ========================= -->
+
+<section class="final-section hidden">
+
+   <div class="glass final-card">
+
+    <h2>💖 10 Reasons Why I Love You </h2>
+
+    <div id="reasonBox">
+
+        <h3 id="reasonTitle">❤️ Reason #1</h3>
+
+        <p id="reasonText">
+            You always ask if I've eaten,
+            even when we're upset with each other.
+            That care means everything to me.
+        </p>
+
+    </div>
+
+    <button id="reasonBtn">
+        Next Reason ❤️
+    </button>
+
+</div>
+
+
+</section>
+
+<!-- ========================= -->
+<!-- JavaScript -->
+<!-- ========================= -->
+<!-- ========================= -->
+<!-- 10 Reasons -->
+<!-- ========================= -->
+
+<section class="reasons-section hidden">
+
+    <div class="glass">
+
+        <h2>❤️ 10 Reasons Why I Love You ❤️</h2>
+
+        <h3 id="reasonTitle">
+            Reason #1
+        </h3>
+
+        <p id="reasonText">
+
+        </p>
+
+        <button id="reasonBtn">
+
+            ❤️ Next Reason
+
+        </button>
+
+    </div>
+    </section>
+<section class="cake-section hidden">
+
+    <div class="cake-card glass">
+
+        <h2>🎂 Make A Wish 🎂</h2>
+
+        <p>
+            Dear Ali,
+            close your eyes,
+            make a wish,
+            then tap the candle. ❤️
+        </p>
+<div class="cake">
+
+    <div class="candle">
+        <div class="flame" id="flame"></div>
+        <div class="smoke" id="smoke"></div>
+    </div>
+
+    <div class="icing"></div>
+
+    <div class="layer top"></div>
+
+    <div class="layer middle"></div>
+
+    <div class="layer bottom"></div>
+
+</div>
+
+</section>
+
+<div class="petals"></div>
+<div class="confetti-container"></div>
 
 <script src="script.js"></script>
 
